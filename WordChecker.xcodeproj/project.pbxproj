@@ -1,0 +1,496 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		641E764D1BC1591400E4A8A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 641E764C1BC1591400E4A8A1 /* AppDelegate.swift */; };
+		641E764F1BC1591400E4A8A1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 641E764E1BC1591400E4A8A1 /* ViewController.swift */; };
+		641E76511BC1591400E4A8A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 641E76501BC1591400E4A8A1 /* Assets.xcassets */; };
+		641E76541BC1591400E4A8A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 641E76521BC1591400E4A8A1 /* Main.storyboard */; };
+		641E765F1BC1591400E4A8A1 /* WordCheckerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 641E765E1BC1591400E4A8A1 /* WordCheckerTests.swift */; };
+		641E766A1BC1591400E4A8A1 /* WordCheckerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 641E76691BC1591400E4A8A1 /* WordCheckerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		641E765B1BC1591400E4A8A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 641E76411BC1591400E4A8A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 641E76481BC1591400E4A8A1;
+			remoteInfo = WordChecker;
+		};
+		641E76661BC1591400E4A8A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 641E76411BC1591400E4A8A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 641E76481BC1591400E4A8A1;
+			remoteInfo = WordChecker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		641E76491BC1591400E4A8A1 /* WordChecker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WordChecker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		641E764C1BC1591400E4A8A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		641E764E1BC1591400E4A8A1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		641E76501BC1591400E4A8A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		641E76531BC1591400E4A8A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		641E76551BC1591400E4A8A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		641E765A1BC1591400E4A8A1 /* WordCheckerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WordCheckerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		641E765E1BC1591400E4A8A1 /* WordCheckerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordCheckerTests.swift; sourceTree = "<group>"; };
+		641E76601BC1591400E4A8A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		641E76651BC1591400E4A8A1 /* WordCheckerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WordCheckerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		641E76691BC1591400E4A8A1 /* WordCheckerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordCheckerUITests.swift; sourceTree = "<group>"; };
+		641E766B1BC1591400E4A8A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		641E76461BC1591400E4A8A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		641E76571BC1591400E4A8A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		641E76621BC1591400E4A8A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		641E76401BC1591400E4A8A1 = {
+			isa = PBXGroup;
+			children = (
+				641E764B1BC1591400E4A8A1 /* WordChecker */,
+				641E765D1BC1591400E4A8A1 /* WordCheckerTests */,
+				641E76681BC1591400E4A8A1 /* WordCheckerUITests */,
+				641E764A1BC1591400E4A8A1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		641E764A1BC1591400E4A8A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				641E76491BC1591400E4A8A1 /* WordChecker.app */,
+				641E765A1BC1591400E4A8A1 /* WordCheckerTests.xctest */,
+				641E76651BC1591400E4A8A1 /* WordCheckerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		641E764B1BC1591400E4A8A1 /* WordChecker */ = {
+			isa = PBXGroup;
+			children = (
+				641E764C1BC1591400E4A8A1 /* AppDelegate.swift */,
+				641E764E1BC1591400E4A8A1 /* ViewController.swift */,
+				641E76501BC1591400E4A8A1 /* Assets.xcassets */,
+				641E76521BC1591400E4A8A1 /* Main.storyboard */,
+				641E76551BC1591400E4A8A1 /* Info.plist */,
+			);
+			path = WordChecker;
+			sourceTree = "<group>";
+		};
+		641E765D1BC1591400E4A8A1 /* WordCheckerTests */ = {
+			isa = PBXGroup;
+			children = (
+				641E765E1BC1591400E4A8A1 /* WordCheckerTests.swift */,
+				641E76601BC1591400E4A8A1 /* Info.plist */,
+			);
+			path = WordCheckerTests;
+			sourceTree = "<group>";
+		};
+		641E76681BC1591400E4A8A1 /* WordCheckerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				641E76691BC1591400E4A8A1 /* WordCheckerUITests.swift */,
+				641E766B1BC1591400E4A8A1 /* Info.plist */,
+			);
+			path = WordCheckerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		641E76481BC1591400E4A8A1 /* WordChecker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 641E766E1BC1591400E4A8A1 /* Build configuration list for PBXNativeTarget "WordChecker" */;
+			buildPhases = (
+				641E76451BC1591400E4A8A1 /* Sources */,
+				641E76461BC1591400E4A8A1 /* Frameworks */,
+				641E76471BC1591400E4A8A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WordChecker;
+			productName = WordChecker;
+			productReference = 641E76491BC1591400E4A8A1 /* WordChecker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		641E76591BC1591400E4A8A1 /* WordCheckerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 641E76711BC1591400E4A8A1 /* Build configuration list for PBXNativeTarget "WordCheckerTests" */;
+			buildPhases = (
+				641E76561BC1591400E4A8A1 /* Sources */,
+				641E76571BC1591400E4A8A1 /* Frameworks */,
+				641E76581BC1591400E4A8A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				641E765C1BC1591400E4A8A1 /* PBXTargetDependency */,
+			);
+			name = WordCheckerTests;
+			productName = WordCheckerTests;
+			productReference = 641E765A1BC1591400E4A8A1 /* WordCheckerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		641E76641BC1591400E4A8A1 /* WordCheckerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 641E76741BC1591400E4A8A1 /* Build configuration list for PBXNativeTarget "WordCheckerUITests" */;
+			buildPhases = (
+				641E76611BC1591400E4A8A1 /* Sources */,
+				641E76621BC1591400E4A8A1 /* Frameworks */,
+				641E76631BC1591400E4A8A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				641E76671BC1591400E4A8A1 /* PBXTargetDependency */,
+			);
+			name = WordCheckerUITests;
+			productName = WordCheckerUITests;
+			productReference = 641E76651BC1591400E4A8A1 /* WordCheckerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		641E76411BC1591400E4A8A1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					641E76481BC1591400E4A8A1 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					641E76591BC1591400E4A8A1 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 641E76481BC1591400E4A8A1;
+					};
+					641E76641BC1591400E4A8A1 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 641E76481BC1591400E4A8A1;
+					};
+				};
+			};
+			buildConfigurationList = 641E76441BC1591400E4A8A1 /* Build configuration list for PBXProject "WordChecker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 641E76401BC1591400E4A8A1;
+			productRefGroup = 641E764A1BC1591400E4A8A1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				641E76481BC1591400E4A8A1 /* WordChecker */,
+				641E76591BC1591400E4A8A1 /* WordCheckerTests */,
+				641E76641BC1591400E4A8A1 /* WordCheckerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		641E76471BC1591400E4A8A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				641E76511BC1591400E4A8A1 /* Assets.xcassets in Resources */,
+				641E76541BC1591400E4A8A1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		641E76581BC1591400E4A8A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		641E76631BC1591400E4A8A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		641E76451BC1591400E4A8A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				641E764F1BC1591400E4A8A1 /* ViewController.swift in Sources */,
+				641E764D1BC1591400E4A8A1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		641E76561BC1591400E4A8A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				641E765F1BC1591400E4A8A1 /* WordCheckerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		641E76611BC1591400E4A8A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				641E766A1BC1591400E4A8A1 /* WordCheckerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		641E765C1BC1591400E4A8A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 641E76481BC1591400E4A8A1 /* WordChecker */;
+			targetProxy = 641E765B1BC1591400E4A8A1 /* PBXContainerItemProxy */;
+		};
+		641E76671BC1591400E4A8A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 641E76481BC1591400E4A8A1 /* WordChecker */;
+			targetProxy = 641E76661BC1591400E4A8A1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		641E76521BC1591400E4A8A1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				641E76531BC1591400E4A8A1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		641E766C1BC1591400E4A8A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		641E766D1BC1591400E4A8A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		641E766F1BC1591400E4A8A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = WordChecker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = esyee.WordChecker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		641E76701BC1591400E4A8A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = WordChecker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = esyee.WordChecker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		641E76721BC1591400E4A8A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = WordCheckerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = esyee.WordCheckerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WordChecker.app/Contents/MacOS/WordChecker";
+			};
+			name = Debug;
+		};
+		641E76731BC1591400E4A8A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = WordCheckerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = esyee.WordCheckerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WordChecker.app/Contents/MacOS/WordChecker";
+			};
+			name = Release;
+		};
+		641E76751BC1591400E4A8A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = WordCheckerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = esyee.WordCheckerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WordChecker;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		641E76761BC1591400E4A8A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = WordCheckerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = esyee.WordCheckerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WordChecker;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		641E76441BC1591400E4A8A1 /* Build configuration list for PBXProject "WordChecker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				641E766C1BC1591400E4A8A1 /* Debug */,
+				641E766D1BC1591400E4A8A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		641E766E1BC1591400E4A8A1 /* Build configuration list for PBXNativeTarget "WordChecker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				641E766F1BC1591400E4A8A1 /* Debug */,
+				641E76701BC1591400E4A8A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		641E76711BC1591400E4A8A1 /* Build configuration list for PBXNativeTarget "WordCheckerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				641E76721BC1591400E4A8A1 /* Debug */,
+				641E76731BC1591400E4A8A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		641E76741BC1591400E4A8A1 /* Build configuration list for PBXNativeTarget "WordCheckerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				641E76751BC1591400E4A8A1 /* Debug */,
+				641E76761BC1591400E4A8A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 641E76411BC1591400E4A8A1 /* Project object */;
+}
